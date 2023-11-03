@@ -1,0 +1,102 @@
+/* Globales */
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;     
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Header y barra de navegacion */
+
+.header{
+    background-color: #AFC2D5;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu li{
+    padding: 5px;
+}
+
+/* About me */
+
+.info{
+    padding: 50px;
+    background-color: #E5DCE1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: #2C363F;
+}
+.aboutme{
+    margin: 10px;
+    text-align: right;
+}
+
+/* Carrousel */
+
+.carrousel img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Cards (Pendiente) */
+
+.cards{
+    background-color: #E5DCE1;
+    color: #2C363F;
+}
+.titlecards{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.cardscontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.cardscontent{
+    border-radius: 10%;
+    padding: 25px;
+    margin: 50px;
+    background-color: #F5F5F5;
+    transition: background-color 0.5s;
+}
+.cardsimg{
+    width: 100%;
+    padding: 10px;
+}
+.cardscontainer :hover{
+    background-color: #2C363F;
+    color: #F5F5F5;
+
+}
+/* Footer */
+
+.footer{
+    padding: 10px;
+    color: #F5F5F5;
+    background-color: #2A2B2A;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.contactbar{
+    display: block;
+    list-style: none;
+}
+.contactbar a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+.logofooter{
+    display: flex;
+    align-items: center;
+}
+
